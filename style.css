@@ -5,105 +5,90 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-header {
-    background-color: #424e61;
-    color: white;
-    width: 100%;
+/* HEADER */
+.cabecalho {
+    background-color: #304b75;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
 }
 
-.cabecalho-itens {
-    max-width: 1980px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.logo {
+    width: 80px;
 }
 
-.cabecalho-imagem {
-    width: 10px;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.titulo-site {
+    font-size: 60px;
 }
 
-.titulo_site {
-    padding: 50px;
-    text-align: center;
-    width: 50%;
-    font: 30px;
+.sociais img {
+    width: 30px;
+    margin-left: 10px;
 }
 
-.sociais {
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    padding-right: 30px;
-}
-
-.banner1 {
+/* BANNER */
+.banner {
     display: flex;
     justify-content: center;
 }
 
-.estudante_titulo {
-    padding: 50px;
-    text-align: center;
+.banner img {
+    width: 100%;
+    max-height: none;
+    object-fit: auto;
 }
 
-.estudante-nome {
+/* ALUNOS */
+.estudante {
+    background-color: #002561;
+    padding: 30px;
+}
+
+.estudante-titulo {
+    color: rgb(255, 255, 255);
     text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+/* GRID */
+.estudantes-todos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+
+/* CARD */
+.estudante-div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(194, 194, 194, 0.2);
 }
 
 .estudante-imagem {
-    width: 120px;
+    width: 100px;
 }
 
-.estudante-icone {
-    width: 38px;
-    padding: 4px 8px;
+.icones img {
+    width: 25px;
+    margin: 5px;
 }
 
-.estudante {
-    background-image: background-color(#faae43);
-    padding: 24px 0;
-}
-
-.estudante.div {
-    text-align: center;
-    padding: 24px 0;
-}
-
-.estudantes_todos {
-    display: flex;
-    justify-content: space-around;
-}
-
-.escola {
-    background-image: linear-gradient(#40A2E3, #7FC2EF);
+/* RODAPÉ */
+.rodape {
+    background-color: rgb(0, 0, 0);
     color: white;
-    display: flex;
-    justify-content: center;
-    padding: 24px 0;
     text-align: center;
-    display: block;
-}
-
-.escola-titulo {
-    padding: 50px;
-    text-align: center;
-}
-
-.logo_rodape {
-    height: 80px;
-    padding: 12px 0;
-}
-
-.link {
-    color: #ffffff;
-    text-decoration: none;
+    padding: 15px;
 }
