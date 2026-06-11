@@ -26,8 +26,10 @@ body {
 }
 
 .cabecalho {
+    padding: 50px;
     text-align: center;
-    font-size: 20px;
+    width: 50%;
+    font: 30px;
 }
 
 .sociais img {
