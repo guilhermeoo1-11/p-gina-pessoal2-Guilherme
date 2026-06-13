@@ -9,7 +9,7 @@ body{
 }
 
 header{
-    background-color: #494bbd;
+    background-color: #4e73a3;
     color: rgb(255, 255, 255);
     padding: 20px;
 }
@@ -99,7 +99,7 @@ header{
 }
 
 .escola{
-    background: linear-gradient(#494bbd,#494bbd);
+    background: linear-gradient(#4e73a3,#4e73a3);
     color: white;
     text-align: center;
     padding: 30px;
