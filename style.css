@@ -20,7 +20,7 @@ align-items: center;
 justify-content: center;
 }
 .cabecalho-imagem{
-width: 20%;
+width: 275px;
 height: auto;
 display: flex;
 justify-content: flex-start;
@@ -30,7 +30,7 @@ align-items: center;
 padding: 50px;
 text-align: center;
 width: 50%;
-font: 30px;
+font: 50px;
 }
 .sociais{
 display: flex;
