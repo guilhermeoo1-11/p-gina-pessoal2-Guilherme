@@ -17,10 +17,6 @@ padding: 20px;
 
 .cabecalho-imagem{
 width: 250px;
-height: auto;
-display: flex;
-justify-content: flex-start;
-align-items: center;
 }
 
 .titulo_site{
