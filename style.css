@@ -56,14 +56,16 @@ header{
     margin-top: -100px;
 }
 
-.titulo-sobre{
+.titulo-sobre {
     font-size: 45px;
-    margin-top: -200px;
+    margin-top: 20px;     /* Espaço entre a imagem e o título */
     margin-bottom: 20px;
     text-align: center;
+    font-weight: bold;
+    color: #333;
 }
 
-.sobre-mim{
+.sobre-mim {
     max-width: 1500px;
     margin: auto;
     text-align: center;
@@ -71,7 +73,6 @@ header{
     line-height: 1.8;
     color: #333;
     padding: 0 20px;
-    margin-top: 10px;
 }
 
 .estudante{
