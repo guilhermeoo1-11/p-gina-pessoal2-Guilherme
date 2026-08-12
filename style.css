@@ -32,11 +32,11 @@ header{
   background-color: #333333;
 }
 
-ul li {
+.ul li {
   float: left;
 }
 
-ul li a {
+.ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -44,7 +44,7 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover {
+.ul li a:hover {
   background-color: #111111;
 }
 
