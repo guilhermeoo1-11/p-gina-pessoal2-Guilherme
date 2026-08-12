@@ -24,6 +24,12 @@ header{
     width: 250px;
 }
 
+.navegação {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .titulo_site{
     text-align: center;
     font-size: 40px;
