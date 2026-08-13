@@ -24,7 +24,7 @@ header{
     width: 250px;
 }
 
-.ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -32,11 +32,11 @@ header{
   background-color: #333333;
 }
 
-.ul {
+ul li {
   float: left;
 }
 
-.ul {
+ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -44,7 +44,7 @@ header{
   text-decoration: none;
 }
 
-.ul {
+ul li a:hover {
   background-color: #111111;
 }
 
