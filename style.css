@@ -147,6 +147,7 @@ ul li a:hover {
 .logo_rodape{
     height: 80px;
     margin-bottom: 15px;
+    background-color: #4e73a3;
 }
 
 .link{
@@ -197,4 +198,5 @@ ul li a:hover {
 .logo_rodape_jogo{
     height: 80px;
     margin-bottom: 15px;
+    background-color: #4e73a3;
 }
