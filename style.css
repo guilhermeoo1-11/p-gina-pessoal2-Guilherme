@@ -162,3 +162,14 @@ ul li a:hover {
     justify-content: center;
     min-height: 100vh;
 }
+
+.cabecalho-itens-jogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_rodape_jogo{
+    height: 80px;
+    margin-bottom: 15px;
+}
