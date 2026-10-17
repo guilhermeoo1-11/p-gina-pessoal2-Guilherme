@@ -165,9 +165,33 @@ ul li a:hover {
 
 .cabecalho-itens-jogo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
+    padding: 30px 40px;
+}
+
+.cabecalho-itens-jogo .cabecalho_imagem {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.cabecalho-itens-jogo .titulo_site {
+    font-size: 40px;
+    text-align: center;
+    flex: 1;
+}
+
+.cabecalho-itens-jogo .sociais {
+    display: flex;
+    gap: 15px;
+}
+
+.cabecalho-itens-jogo .sociais img {
+    width: 50px;
+    height: 50px;
 }
 
 .logo_rodape_jogo{
